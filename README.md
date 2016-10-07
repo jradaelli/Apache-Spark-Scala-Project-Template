@@ -4,7 +4,7 @@ This project lays out a simple Apache Spark Project Template. It includes small 
 
 # Spark in Production<a id="sec-1" name="sec-1"></a>
 
-Like anything else, when putting things into production it's important that behavior is well scoped and understood. Things like testing come to the forefront of what you're doing and it's important to make sure that things are well scoped. After writing a couple of different projects in Scala and Spark I saw some repeated approaches and patterns I was taking, especially with regard to testing. I wanted to write and share a simple base application that people can use for themselves.
+Like anything else,  when putting things into production it's important that behavior is well scoped and understood. Things like testing come to the forefront of what you're doing and it's important to make sure that things are well scoped. After writing a couple of different projects in Scala and Spark I saw some repeated approaches and patterns I was taking, especially with regard to testing. I wanted to write and share a simple base application that people can use for themselves.
 
 If you'd rather just take a look at the template you can [find it on my github.](https://github.com/anabranch/Apache-Spark-Scala-Project-Template) (<https://github.com/anabranch/Apache-Spark-Scala-Project-Template>)
 
