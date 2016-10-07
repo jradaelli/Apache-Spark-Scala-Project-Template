@@ -1,4 +1,4 @@
-package net.sparktutorials.scaffold
+package com.datareply.analyticsusecase
 
 import org.scalatest._
 import org.apache.spark.{SparkConf, SparkContext}

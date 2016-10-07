@@ -1,14 +1,14 @@
-name := "ScalaSparkTemplate" // change to project name
-organization := "com.github.anabranch" // change to your org
+name := "UseCaseAnalytics" // change to project name
+organization := "com.datareply.analyticsusecase" // change to your org
 version := "0.2-SNAPSHOT"
 scalaVersion := "2.10.5"
 // Databricks uses 2.10.5 (as of 02/12/2016)
 
 libraryDependencies ++= Seq(
   // spark core
-  "org.apache.spark" %% "spark-core" % "1.6.0",
-  "org.apache.spark" %% "spark-sql" % "1.6.0",
-  "org.apache.spark" %% "spark-hive" % "1.6.0" % "provided",
+  "org.apache.spark" %% "spark-core" % "1.6.1",
+  "org.apache.spark" %% "spark-sql" % "1.6.1",
+  "org.apache.spark" %% "spark-hive" % "1.6.1",
 
   // spark-modules
   // "org.apache.spark" %% "spark-graphx" % "1.6.0",
@@ -30,7 +30,6 @@ libraryDependencies ++= Seq(
 // allows us to include spark packages
 resolvers += "bintray-spark-packages" at
   "https://dl.bintray.com/spark-packages/maven/"
-
 resolvers += "Typesafe Simple Repository" at
  "http://repo.typesafe.com/typesafe/simple/maven-releases/"
 
@@ -67,7 +66,7 @@ dbcRestartOnAttach := false // Default true
 ///// END Databricks Settings
 //////////
 
-mainClass in (Compile, packageBin) := Some("com.github.anabranch.ExampleClass")
+mainClass in (Compile, packageBin) := Some("com.datareply.analyticsusecase")
 
 // Compiler settings. Use scalac -X for other options and their description.
 // See Here for more info http://www.scala-lang.org/files/archive/nightly/docs/manual/html/scalac.html

@@ -1,11 +1,11 @@
-package net.sparktutorials.scaffold
+package com.datareply.analyticsusecase
 
 import org.scalatest._
 import org.apache.spark._
 
 class Example extends BaseSpec {
   private var dataCobbler: ExampleClass = _
-  
+
   override protected def beforeAll(): Unit = {
     super.beforeAll()
     dataCobbler = new ExampleClass()
